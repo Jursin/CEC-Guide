@@ -6,7 +6,7 @@ export default defineAppConfig({
       umami: {
         enable: true,
         src: 'https://cloud.umami.is/script.js',
-        dataWebsiteId: 'a39dd52a-40ad-4bee-b6c5-43435720c05b',
+        dataWebsiteId: 'abcc4cf6-72f4-414f-9a2e-7982e2e7ff8f',
       }
     },
     theme: {

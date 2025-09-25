@@ -47,8 +47,13 @@ export default defineAppConfig({
       codeCopyToastText: '已复制到剪贴板',
       fieldRequiredText: '必填',
       pm: ['npm', 'pnpm', 'bun', 'yarn'],
-      
-
+      editLink: {
+        enable: true,
+        pattern: 'https://github.com/Jursin/CEC-Guide/edit/main/content/:path',
+        text: '在 GitHub 上编辑此页面',
+        icon: 'lucide:square-pen',
+        placement: ['docsFooter', 'toc'],
+      },
     },
     footer: {
       credits: 'Copyright © 2025 | Jursin',

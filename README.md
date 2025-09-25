@@ -1,49 +1,30 @@
-# shadcn-docs-nuxt Minimal Starter
+# CEC-Guide 电教委指南
 
-Starter template for [shadcn-docs-nuxt](https://github.com/ZTL-UwU/shadcn-docs-nuxt).
+使用 [shadcn-docs-nuxt](https://github.com/ZTL-UwU/shadcn-docs-nuxt) 搭建，Netlify 部署
 
-## Setup
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b6a3f6d6-ae3e-4c89-bcd8-6955b60b913f/deploy-status)](https://app.netlify.com/projects/cec-guide/deploys)
 
-Make sure to install the dependencies:
+## 开发
+
+安装依赖：
 
 ```bash
-# yarn
-yarn install
-
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on http://localhost:3000
+启动开发服务器，默认端口为 3000：
 
 ```bash
 npm run dev
 ```
-
-## Production
-
-[![Deploy to NuxtHub](https://hub.nuxt.com/button.svg)](https://hub.nuxt.com/new?repo=ZTL-UwU/shadcn-docs-nuxt-starter)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FZTL-UwU%2Fshadcn-docs-nuxt-starter)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https%3A%2F%2Fgithub.com%2FZTL-UwU%2Fshadcn-docs-nuxt-starter)
-
-Build the application for production:
+## 构建
 
 ```bash
 npm run build
 ```
 
-Locally preview production build:
+本地预览：
 
 ```bash
 npm run preview
 ```
-
-Checkout the [deployment documentation](https://shadcn-docs-nuxt.vercel.app/getting-started/deployment) for more information.

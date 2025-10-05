@@ -12,21 +12,17 @@ icon: lucide:info
 
 - 连接互联网，让一切皆有可能；
 - 支持触控操作，让操作更方便；
-- 支持全局屏幕批注，助力课堂教学；
-- 通过 PC 模块实现运行各种教学软件、预览课件文档等；
-
-### 构成
-- 安卓底层：
-  - 类似安卓电视，控制一些基本功能，如屏幕显示、降半屏、触控等，故不建议尝试一些风险操作；
-  - 能安装并运行部分应用程序，但一般设计时没有分配太多资源，故不建议安装太多应用；
-- PC 模块：
-  - 作为 OPS 主机插入到一体机中，并通过一体机实现屏幕显示与触摸；
-  - 通过加载 Windows, 统信 UOS 等操作系统，实现更多功能；
+- 支持屏幕批注，助力课堂教学；
+- 通过 PC 模块实现运行各种教学软件；
 
 ### 品牌
 - <a href="https://www.seewo.com/" target="_blank"><img src="/seewo.png" height="30" /></a>
   <img src="/seewo-device.png" width="700" />
 - <a href="https://hitevision.com/" target="_blank"><img src="/hitevision.png" height="30" /></a>
-<img src="/hitevision-device.jpg" width="750" />
-
-## 电子班牌
+  <img src="/hitevision-device.jpg" width="750" />
+- <a href="https://www.njodin.com/" target="_blank"><img src="/odin.png" height="30" /></a>
+  <img src="/odin-device.png" width="750" />
+- <a href="https://iflyhub.iflyrec.com/" target="_blank"><img src="/iflytek.png" height="30" /></a>
+  <img src="/iflytek-device.png" width="750" />
+- <a href="https://www.maxhub.com/product/14.html" target="_blank"><img src="/maxhub.png" height="30" /></a>
+  <img src="/maxhub-device.png" width="750" />

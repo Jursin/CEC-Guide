@@ -19,8 +19,3 @@ actions:
 
 #description
 本文档将介绍教学一体机的相关信息和使用方法，帮助电教委更好地了解和使用教学一体机
-::
-
-::div{class="border rounded-lg shadow-md"}
-  :iframe{src="/overview/before" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0"}
-::

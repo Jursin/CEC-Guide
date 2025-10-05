@@ -52,11 +52,11 @@ export default defineAppConfig({
         pattern: 'https://github.com/Jursin/CEC-Guide/edit/main/content/:path',
         text: '在 GitHub 上编辑此页面',
         icon: 'lucide:square-pen',
-        placement: ['docsFooter', 'toc'],
+        placement: ['docsFooter'],
       },
     },
     footer: {
-      credits: 'Copyright © 2025 | Jursin',
+      credits: 'Copyright © 2025 | Jursin<br>Powered by <a href="https://github.com/ZTL-UwU/shadcn-docs-nuxt" target="_blank">Shadcn-Docs</a>',
       boaeder: true,
       links: [{
         icon: 'lucide:github',

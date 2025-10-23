@@ -2,6 +2,8 @@
 
 这个网站使用 [vuepress](https://vuepress.vuejs.org/) 和 [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume) 搭建
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b6a3f6d6-ae3e-4c89-bcd8-6955b60b913f/deploy-status)](https://app.netlify.com/projects/eec-manual/deploys)
+
 ## 安装
 
 ```sh

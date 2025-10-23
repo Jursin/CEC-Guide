@@ -1,0 +1,17 @@
+:root {
+    --vp-layout-max-width: 1660px;
+}
+
+.posts-container.no-profile {
+    max-width: 850px;
+}
+
+/* 隐藏滚动条但保持滚动功能 */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* 对于 Firefox */
+html {
+  scrollbar-width: none;
+}

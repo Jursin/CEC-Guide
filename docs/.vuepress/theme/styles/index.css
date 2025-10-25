@@ -2,8 +2,12 @@
     --vp-layout-max-width: 1660px;
 }
 
-.posts-container.no-profile {
-    max-width: 850px;
+.content-container {
+  margin: 0 !important;
+}
+
+.vp-doc-container.has-aside .content-container {
+  max-width: 1000px !important;
 }
 
 /* 隐藏滚动条但保持滚动功能 */

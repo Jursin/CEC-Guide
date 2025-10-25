@@ -33,7 +33,7 @@
 }
 
 /** 深色模式 */
-[data-theme="dark"] {
+/* [data-theme="dark"] { */
   /*
   --vp-c-brand-1: #8cccd5;
   --vp-c-brand-2: #6aa1b7;
@@ -53,4 +53,42 @@
   --vp-c-text-2: rgba(235, 235, 245, 0.6);
   --vp-c-text-3: rgba(235, 235, 245, 0.38);
   */
+/* } */
+
+/* faq */
+.posts-container.no-profile {
+  max-width: 1400px !important;
+}
+
+.vp-posts-nav.local .nav-link {
+  max-width: 175px !important;
+}
+
+/* friends */
+.vp-friends {
+  max-width: 1400px !important;
+}
+
+.friends-list {
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+}
+
+.avatar {
+  width: auto;
+  height: auto;
+  padding: 8px;
+  border-radius: 8px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain !important;
+}
+
+.image {
+  margin-top: 60px !important;
 }

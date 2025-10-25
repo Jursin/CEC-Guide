@@ -1,11 +1,9 @@
 import { defineClientConfig } from 'vuepress/client'
-import { h } from 'vue'
-import { Layout } from 'vuepress-theme-plume/client'
+import Layout from './theme/components/Layout.vue'
 // import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 // import NpmBadge from 'vuepress-theme-plume/features/NpmBadge.vue'
 // import NpmBadgeGroup from 'vuepress-theme-plume/features/NpmBadgeGroup.vue'
 // import Swiper from 'vuepress-theme-plume/features/Swiper.vue'
-import AsideNav from './theme/components/AsideNav.vue'
 import './theme/styles/custom.css'
 import './theme/styles/index.css'
 
@@ -19,8 +17,6 @@ export default defineClientConfig({
 
   },
   layouts: {
-    Layout: h(Layout, null, {
-      'aside-outline-after': () => h(AsideNav),
-    }),
+    Layout,
   },
 })

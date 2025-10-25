@@ -23,4 +23,5 @@ export default defineNavbarConfig([
     link: '/faq/',
   },
   { text: '友链', icon: 'ic:round-people', link: '/friends' },
+  { text: 'ACS', icon: 'lineicons:vite', link: 'https://nav.jursin.top/' },
 ])

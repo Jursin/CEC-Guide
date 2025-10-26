@@ -49,7 +49,12 @@ export default defineUserConfig({
     },
 
     /* 本地搜索, 默认启用 */
-    search: { provider: 'local' },
+    search: {
+      provider: 'algolia',
+      appId: 'POK73BZTXB',
+      apiKey: '0927c70e7bde29af99f9cc47985fd265',
+      indexName: 'doc',
+    },
 
     /**
      * Algolia DocSearch
